@@ -2,7 +2,7 @@ package modelo.figuras;
 
 import java.awt.*;
 
-public interface Seleccionable {
+public interface Seleccionable extends IFigura{
 
     boolean contiene(Point punto);
     void rellenar();
